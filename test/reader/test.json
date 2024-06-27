@@ -1,0 +1,12 @@
+{
+  "server": {
+    "port": 8089
+  },
+  "database": {
+    "host": "localhost9",
+    "port": 999,
+    "name": "mydb9",
+    "user": "myuser9",
+    "password": "mypass9"
+  }
+}
