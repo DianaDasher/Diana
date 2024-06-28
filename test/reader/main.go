@@ -1,8 +1,9 @@
 package test
 
 import (
-	utils "Diana/untils"
 	"fmt"
+
+	utils "github.com/DianaDasher/Diana/untils"
 )
 
 func main() {
