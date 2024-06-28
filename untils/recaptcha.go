@@ -59,10 +59,10 @@ func VerifyReCaptchaV2(responseKey string, secretKey string, recaptchaLink strin
 
 	// 根据success字段判断并返回结果
 	if recaptchaResp.Success {
-		log.Println("reCAPTCHA verification succeeded.")
+		log.Println("reCAPTCHA succeeded.")
 		return true
 	} else {
-		log.Println("reCAPTCHA verification failed.")
+		log.Println("reCAPTCHA failed.")
 		return false
 	}
 
